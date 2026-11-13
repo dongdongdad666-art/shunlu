@@ -1,0 +1,41 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>工程与成本记录-v001 · 顺路，买个面包</title><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header class="site-header shell"><a class="brand" href="/"><img src="/media/logo.svg" width="150" height="46" alt="顺路，买个面包"></a><nav class="nav" aria-label="主导航"><a href="/">案例</a><a href="/experience/order/">点餐体验</a><a href="/experience/workshop/">香气工坊</a><a href="/process/">过程</a><a href="/library/">资料库</a></nav></header><main id="main" class="shell"><article class="document-reader section"><a href="/library/">← 资料库</a><p>阶段原始记录；当前产品流程以在线体验为准。</p><h1>M3 工程与成本记录</h1>
+
+<h2>实际路由</h2>
+
+<p>| 环节 | 当前实现 | 模型调用 | 成本记录 |</p>
+<p>|---|---|---|---|</p>
+<p>| 产品/香气素材 | 复用 M2 的 3 母图、4 背景、12 卡 | 本轮新增 0 次 | 历史生成费用仍未知 |</p>
+<p>| 匹配与文案 | 4×3 固定映射、已审核模板 | 在线 LLM 0 次 | 未发生运行时模型 API 调用 |</p>
+<p>| 用户留言 | 原文保留，40 字，HTML/XML 转义 | 0 次 | 只用于本地导出 |</p>
+<p>| 分享/壁纸 | 预生成资产；留言按需合成 | 0 次 | 本地 sharp 计算，未计量 CPU/GPU 费用 |</p>
+<p>| 打印 | pdf-lib 排版及页框 | 0 次 | 未计量本地运算费用 |</p>
+<p>| UI/交易 | 原生 HTML/CSS/JS、演示数据 | 0 次 | 不收款，无生产服务费 |</p>
+
+<p>没有使用 Midjourney、ComfyUI、Runway 或视频生成 API。本轮操作录像是浏览器真实操作录屏。不得把这些工具写进实际工具链。</p>
+
+<p>在线模型调用为 0 不代表项目零成本：M2 的工具计费、开发工时、机器成本没有完整账单，不推算节约百分比。实际模型版本、GPU 时间、人工对照工时均未获得。</p>
+
+<h2>事件口径</h2>
+
+<p><code>composition_started</code> 表示本地资源组合请求；只在真正发起模型请求时才允许记录 <code>generation_started</code>，本轮没有该事件。</p>
+
+<p><code>card_rendered</code> 记录 asset_id、request_id、等待到图片可用的 latency_ms；<code>model_call_made=false</code>、<code>generation_mode=template_demo</code>、<code>fallback_used=true</code>。其他包括导出触发/失败、演示订单建立/状态变更、演示券领取/核销。</p>
+
+<p>本地状态台可导出会话 JSON，全部 <code>data_kind=test</code>、<code>source_channel=direct</code>。事件不包含个人留言；没有外部分析服务。展示会话不是用户行为样本，更不是新增到店或转化数据。</p>
+
+<h2>失败与修复证据</h2>
+
+<p>| 发现 | 根因 | 修复与验证 |</p>
+<p>|---|---|---|</p>
+<p>| 损坏本机订单可导致启动失败 | 只验证 id 前缀，未校验字段类型 | 恢复时校验字段、条目与金额；坏数据丢弃，浏览器回归通过 |</p>
+<p>| 图片等待不受超时控制 | AbortController 只传给 fetch | 整段组合与 decode 纳入 abortable；图片延迟 6 秒回归，4.5 秒失败后迟到图不覆盖 |</p>
+<p>| 券过期后金额静默增加 | 提交先按当前券状态重算 | 校验优惠意图，提示新金额并再次确认；21→24 元边界回归通过 |</p>
+<p>| 点击重绘后丢焦点 | 替换 main 内节点 | 事件完成后恢复同一控件焦点；浏览器验证 |</p>
+<p>| 手机菜单价签与操作拥挤 | 一行内缺乏明确间距 | 价格与动作分行，并查看 320/390 宽度 |</p>
+
+<p>过程还包括测试脚本自身的导航选择与 URL 匹配修正，保留于 work/tests；它们不计为 AI 生成重试。模型重试数为 0；模板失败场景只作为故障演练。</p>
+
+<h2>资产与许可</h2>
+
+<p>品牌 SVG、产品 PNG 与香气背景均来自项目 M2，可追溯到既有生成记录。UI 使用 Noto Sans SC 子集，OFL 副本保留在 public/assets/OFL.txt，原字体与许可在项目 assets/fonts/NotoSansSC。事实数据保留源 URL、报道日期、限制；不使用未经授权的真实商家标识或照片。</p>
+</article></main><footer class="footer shell">自主概念项目 · 原创概念与设计决策，AI辅助图像、文案及代码制作。生成场景不是实拍；演示订单不是经营数据。</footer></body></html>

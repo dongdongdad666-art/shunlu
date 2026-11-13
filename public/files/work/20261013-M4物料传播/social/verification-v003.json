@@ -1,0 +1,203 @@
+{
+  "version": "v003",
+  "result": "PASS",
+  "images_checked": 24,
+  "embedded_original_images_checked": 21,
+  "text_lines_checked": 204,
+  "operation_copy": "matches M3 button; nonexistent quoted button removed",
+  "checks": [
+    {
+      "id": "POSTER01-品牌主张",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "a6167c6bed85c6beb66403975fc3b5db287fbc3175d84a03d2706411a4b28e9a"
+    },
+    {
+      "id": "POSTER02-三款日常",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "f949ec88b421f477ac06699a56791bfc0b30b8c39883398a24fd2bc121b4c1ad"
+    },
+    {
+      "id": "POSTER03-今天这一炉",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "6ec98f2196f191edbf3a5b58440b8d26f4a4330b6f8f983d8384eaff2ca219a3"
+    },
+    {
+      "id": "C01-01-品牌封面",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "5e5efdb6f2949a0e2dfc53d74bb9b4ba9af49ec67a0350b5fd537998cbe983da"
+    },
+    {
+      "id": "C01-02-品牌故事",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "9cc59cedcda26c824dc5a4b56cde43ab5f3d2513aa912f9a16280e41b1789e15"
+    },
+    {
+      "id": "C02-01-长条餐包",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "954fe6f0fa40cdbdf500967e542766cd37cf973017900a4b51baa37ee3304fbc"
+    },
+    {
+      "id": "C02-02-长条档案",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "4f822fde14c3d4c59dfa49e048a88484ea4fe23583e6299258b350b1ee448f34"
+    },
+    {
+      "id": "C03-01-谷物面包",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "d8090cae4cb7a80e7d09a573988f55b3e8c04834daf2440f92937829faec1d91"
+    },
+    {
+      "id": "C03-02-谷物档案",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "d6dae1788d31c55e61e910b35adddea3190cc908bc7acb90acfdf033630a5159"
+    },
+    {
+      "id": "C04-01-切片吐司",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "ae08ea5c2f4f4a76d0887c79b3e292ab371e94771bbd1c64ec6c54bf27187251"
+    },
+    {
+      "id": "C04-02-吐司档案",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "737df724c25f4c44a32cd7cbe815193d1d1993e05a67fb96c10629110abeadc0"
+    },
+    {
+      "id": "C05-01-香气玩法",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "4b67a42f2302464fd7a8f62822b4c7df44e838e56ec735fa5efe42ff664e42e7"
+    },
+    {
+      "id": "C05-02-互动步骤",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "37c7a68b361d592131874b8bd3a55d9b8f04f5fbe47499e3a57ca75ec19e0001"
+    },
+    {
+      "id": "C06-01-设计过程",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "c764a5cdcbe01ae38e141fc58c9a406b852aabf15249240ef424563cd7da5e4b"
+    },
+    {
+      "id": "C06-02-过程说明",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "2cdedf64ee759bd52fac12007aeb738b779739687f50ec7a0ebfa61293474880"
+    },
+    {
+      "id": "GRID01-品牌主张",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "5d3f9009c224771dc6df86491829d0e74de9d91fc6e838ce3dcb083b9bdc1f59"
+    },
+    {
+      "id": "GRID02-长条餐包",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "448c5075cc00a1ffaae03948744563497096b27c88410278cb661b93c2ddb3a6"
+    },
+    {
+      "id": "GRID03-转角",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "b571b9982486f4d4b484023c28149e8684376e38cc0921f8413153b0b9501bc8"
+    },
+    {
+      "id": "GRID04-谷物面包",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "0fc631ef41b6f5dcf39180dd48c9aaf4e03fee612442ce8dd898dfb4ef03e05d"
+    },
+    {
+      "id": "GRID05-香气玩法",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "a1f93f5c21aeaa282a822e1578b4460f16b51a3da0859f05ef2de54e8c22a690"
+    },
+    {
+      "id": "GRID06-切片吐司",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "d4d367afaf10e53876fb278e1e6880d29da985b36bbfd656ad2a44e137cd144e"
+    },
+    {
+      "id": "GRID07-品牌颜色",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "a2e621d65d648597ffb0bf1e1b9cac5614da3a033f33ff5f2f162dd17029b44b"
+    },
+    {
+      "id": "GRID08-四种心情",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "91a10a8e6cd17c1e443a780ce8571b76a774eadfe419b2c4eb3f0169cb1feaef"
+    },
+    {
+      "id": "GRID09-日常收束",
+      "dimensions": "pass",
+      "original_logo_paths": "pass",
+      "ai_disclosure": "pass",
+      "embedded_assets": "pass",
+      "png_sha256": "4b69c2c227533bc2a129e0665394c86086df0350aaa746957257659db538876b"
+    }
+  ],
+  "visual_review": "v003 POSTER03 and C05-01 full-size inspected; updated contact sheet inspected. v001 overlaps corrected in v002. Actual platform preview not performed."
+}

@@ -1,0 +1,3 @@
+"asset_id","file","width","height","sha256","call_wall_seconds","total_wall_seconds","api_cost","gpu_seconds","status"
+"M2-BC-BAG-01","final/img-0002-B融合C-纸袋-v001.png","1536","1024","ECFCD7C0FCF570C2B2D6118E6F795E40963116A85F9E7A05784692E0A2B2BBAA","51.756","52.527",,,"reviewed_fusion_study_not_production_master"
+"M2-BC-HERO-01","final/img-0001-B融合C-主视觉-v001.png","1536","1024","8D18B0CA940F5641E2EE522F2249A85352C79D5057F0FAA670EC5AEDF40E713E","32.528","52.529",,,"reviewed_fusion_study_not_production_master"

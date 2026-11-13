@@ -1,0 +1,46 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --no-audit --no-fund",
+  "outputDirectory": "dist",
+  "nodeVersion": "22.11.0",
+  "cloudFunctions": {
+    "includeFiles": [
+      "legacy-api/**",
+      "server/**",
+      "server-assets/**"
+    ],
+    "externalNodeModules": [
+      "sharp",
+      "pdf-lib"
+    ],
+    "maxDuration": 30
+  },
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    },
+    {
+      "source": "/*.mjs",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}

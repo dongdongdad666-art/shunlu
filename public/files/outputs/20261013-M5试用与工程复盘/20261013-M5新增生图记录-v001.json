@@ -1,0 +1,41 @@
+[
+  {
+    "id": "M5-P04",
+    "product": "P04",
+    "started": "2026-10-13T04:37:29.017Z",
+    "observed_ms": 30141,
+    "prompt": "Use case: product-mockup. Asset type: transparent product cutout for a warm Shanghai community bakery menu. Primary request: one classic curved French butter croissant, visible crisp laminated layers, two tapering tips, golden amber crust, no filling or garnish. Photography: realistic edible food, handmade bread with delicate microtexture, neither plastic nor glossy. Soft natural window light from upper left, warm gold crust and neutral cream highlights, crisp but not oversharpened. Composition: a single complete pastry centered in a landscape 3:2 canvas, camera 25 degrees above tabletop level, all edges visible, product occupies 75 percent of width with generous padding. True transparent alpha background, no white backdrop, no plate, no table, no napkin, no props, no text, no hands, no flour scattered, no cast shadow beyond a very subtle contact shadow. Cohesive with a brand using dark green and cream but do not tint bread green. Fictional bakery concept.",
+    "api_cost": null,
+    "model_version": null,
+    "gpu_seconds": null,
+    "path": "[本机路径已隐藏]",
+    "parallel_group": null,
+    "status": "success"
+  },
+  {
+    "id": "M5-P05",
+    "product": "P05",
+    "started": "2026-10-13T04:38:24.321Z",
+    "observed_ms": 19479,
+    "prompt": "Use case: product-mockup. Transparent product cutout for a Shanghai community bakery menu. Exactly one small Japanese-style crescent salt butter roll (shio pan), smooth plump tightly rolled wedge shape, subtle rolled seam and sparse fine salt crystals, golden brown skin, clearly distinct from laminated croissant, no filling. Realistic edible handmade bakery photography, warm golden crust, delicate irregular microtexture. Soft natural window light from upper left, neutral warm highlights, appetizing yet not oily or overly glossy. A single complete pastry centered on a landscape 3:2 canvas, camera 25 degrees above tabletop, three-quarter front view, entire product visible, occupies 75 percent of image width, ample empty padding. The background must be fully transparent with actual alpha, clean cutout edges, no white background, no colored halo. No plate, table, props, crumbs scattered outside, hands, text or logos. No other food. Match a restrained green-and-cream bakery identity through warm natural food lighting only.",
+    "api_cost": null,
+    "model_version": null,
+    "gpu_seconds": null,
+    "path": "[本机路径已隐藏]",
+    "parallel_group": "M5-new-products-2",
+    "status": "success"
+  },
+  {
+    "id": "M5-P06",
+    "product": "P06",
+    "started": "2026-10-13T04:38:24.321Z",
+    "observed_ms": 49408,
+    "prompt": "Use case: product-mockup. Transparent product cutout for a Shanghai community bakery menu. Exactly one round cinnamon roll, distinct dark cinnamon spiral visible from the top, golden soft bread edges, no icing or glaze and no added nuts, slightly handmade rather than perfect symmetry. Realistic edible handmade bakery photography, warm golden crust, delicate irregular microtexture. Soft natural window light from upper left, neutral warm highlights, appetizing yet not oily or overly glossy. A single complete pastry centered on a landscape 3:2 canvas, camera 25 degrees above tabletop, three-quarter front view, entire product visible, occupies 75 percent of image width, ample empty padding. The background must be fully transparent with actual alpha, clean cutout edges, no white background, no colored halo. No plate, table, props, crumbs scattered outside, hands, text or logos. No other food. Match a restrained green-and-cream bakery identity through warm natural food lighting only.",
+    "api_cost": null,
+    "model_version": null,
+    "gpu_seconds": null,
+    "path": "[本机路径已隐藏]",
+    "parallel_group": "M5-new-products-2",
+    "status": "success"
+  }
+]

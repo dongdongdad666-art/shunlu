@@ -1,0 +1,17 @@
+{
+  "name": "shunlu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "scripts": {
+    "build": "node src/edgeone/build.cjs",
+    "test": "node --test tests/edgeone/*.test.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.5",
+    "pdf-lib": "1.17.1"
+  }
+}

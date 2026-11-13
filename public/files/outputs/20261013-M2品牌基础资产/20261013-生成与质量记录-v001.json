@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "scope": "M2品牌基础资产，不是完整M2或全案完成",
+  "tool": "built-in image_gen",
+  "image_calls": 3,
+  "image_retries": 0,
+  "batch_observed_seconds": 90.533,
+  "measurement": "客户端调用开始至返回的等待时间；并发请求可能由服务端排队。不是GPU耗时或纯推理时间。",
+  "model": null,
+  "api_cost": null,
+  "gpu_seconds": null,
+  "unknown_reason": "工具未返回实际模型版本、费用和GPU信息",
+  "runs": [
+    {
+      "id": "P01",
+      "file": "img-0001-P01原味长条餐包-母图-v001.png",
+      "start": "2026-10-13T01:53:24.974Z",
+      "end": "2026-10-13T01:53:55.697Z",
+      "elapsed_seconds": 30.723,
+      "tool": "built-in image_gen",
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "status": "retained",
+      "copy_verified": true
+    },
+    {
+      "id": "P02",
+      "file": "img-0002-P02圆形谷物面包-母图-v001.png",
+      "start": "2026-10-13T01:53:24.974Z",
+      "end": "2026-10-13T01:54:26.346Z",
+      "elapsed_seconds": 61.372,
+      "tool": "built-in image_gen",
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "status": "retained",
+      "copy_verified": true
+    },
+    {
+      "id": "P03",
+      "file": "img-0003-P03切片吐司-母图-v001.png",
+      "start": "2026-10-13T01:53:24.974Z",
+      "end": "2026-10-13T01:54:55.507Z",
+      "elapsed_seconds": 90.533,
+      "tool": "built-in image_gen",
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "status": "retained",
+      "copy_verified": true
+    }
+  ],
+  "product_qa": {
+    "P01": "全形完整、3条斜割口，无撒粉种子；割口比最初浅割口设定更开，接受为本轮视觉候选。单角度不能测定实际3:1比例。",
+    "P02": "单条弧形割口与稀疏浅色片状谷物可辨，无黑种子；单角度不能测定实际直径高度比。",
+    "P03": "方形平顶短吐司段与前置2片可辨，无夹馅；上下片有自然重叠。",
+    "alpha": "3张均RGBA，透明像素54.4%/60.7%/56.5%，alpha最大254，主体接近不透明但并非255实色；米底与绿底可视检查通过。边缘有少量低alpha像素，未宣称纯净抠图；保留工具原始alpha。",
+    "reuse": "当前为虚构商品设计母图候选，后续品牌应用复用此图，不反复生成产品本体。"
+  },
+  "export_revisions": [
+    {
+      "version": "v001",
+      "issue": "ReportLab路径接口适配与PDF默认evenodd填充导致交叠笔画镂空；默认变量字体字重偏细；应用转角超出面板",
+      "fix": "closePath适配、nonzero填充、正文实例化400字重、收紧边界；失败PDF与预览保存在work"
+    },
+    {
+      "version": "v002",
+      "issue": "中英组合标160px英文过小",
+      "fix": "建议组合标最小宽度提高为320px；小尺寸用纯中文；印刷建议60mm并待打样"
+    },
+    {
+      "version": "v003",
+      "status": "交付规范PDF，5页已渲染检查"
+    }
+  ]
+}

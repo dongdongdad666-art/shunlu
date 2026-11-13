@@ -1,0 +1,5 @@
+export const shapes=[{id:'round',name:'圆圆包',detail:'给日常一个柔软的句号'},{id:'loaf',name:'小长条',detail:'把好心情，分成几口'},{id:'ring',name:'暖心圈',detail:'给自己留一点空隙'}];
+export const tones=[{id:'light',name:'浅金',color:'#EBC17C'},{id:'gold',name:'金黄',color:'#D99443'},{id:'deep',name:'焦糖',color:'#A65F2D'}];
+export const moods=[{id:'slow',name:'慢一点',title:'给今天，留一点松软。',line:'不用赶路，麦香会慢慢抵达。'},{id:'share',name:'想分享',title:'这一份，分你一半。',line:'把平常的一天，烤成相聚的理由。'},{id:'bright',name:'想出发',title:'带一点暖，去远一点。',line:'新的一程，从手心里的温暖开始。'}];
+export function normalizeRecipe(input={}){return {shape:shapes.some(x=>x.id===input.shape)?input.shape:'round',tone:tones.some(x=>x.id===input.tone)?input.tone:'gold',mood:moods.some(x=>x.id===input.mood)?input.mood:'slow',note:[...String(input.note||'').replace(/[\u0000-\u001F]/g,' ')].slice(0,28).join('')};}
+export function describeRecipe(input){const r=normalizeRecipe(input);return {...r,shapeName:shapes.find(x=>x.id===r.shape).name,toneName:tones.find(x=>x.id===r.tone).name,color:tones.find(x=>x.id===r.tone).color,...moods.find(x=>x.id===r.mood)};}

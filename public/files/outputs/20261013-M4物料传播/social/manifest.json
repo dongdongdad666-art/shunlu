@@ -1,0 +1,255 @@
+{
+  "version": "v003",
+  "counts": {
+    "posters": 3,
+    "carousel_groups": 6,
+    "carousel_images": 12,
+    "grid": 9,
+    "total": 24
+  },
+  "assets": [
+    {
+      "id": "POSTER01-品牌主张",
+      "kind": "posters",
+      "group": null,
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0001-POSTER01-品牌主张-v003.svg",
+      "png": "posters/img-0001-POSTER01-品牌主张-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "POSTER02-三款日常",
+      "kind": "posters",
+      "group": null,
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0002-POSTER02-三款日常-v003.svg",
+      "png": "posters/img-0002-POSTER02-三款日常-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "POSTER03-今天这一炉",
+      "kind": "posters",
+      "group": null,
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0003-POSTER03-今天这一炉-v003.svg",
+      "png": "posters/img-0003-POSTER03-今天这一炉-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C01-01-品牌封面",
+      "kind": "carousels",
+      "group": "C01",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0004-C01-01-品牌封面-v003.svg",
+      "png": "carousels/img-0004-C01-01-品牌封面-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C01-02-品牌故事",
+      "kind": "carousels",
+      "group": "C01",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0005-C01-02-品牌故事-v003.svg",
+      "png": "carousels/img-0005-C01-02-品牌故事-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C02-01-长条餐包",
+      "kind": "carousels",
+      "group": "C02",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0006-C02-01-长条餐包-v003.svg",
+      "png": "carousels/img-0006-C02-01-长条餐包-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C02-02-长条档案",
+      "kind": "carousels",
+      "group": "C02",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0007-C02-02-长条档案-v003.svg",
+      "png": "carousels/img-0007-C02-02-长条档案-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C03-01-谷物面包",
+      "kind": "carousels",
+      "group": "C03",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0008-C03-01-谷物面包-v003.svg",
+      "png": "carousels/img-0008-C03-01-谷物面包-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C03-02-谷物档案",
+      "kind": "carousels",
+      "group": "C03",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0009-C03-02-谷物档案-v003.svg",
+      "png": "carousels/img-0009-C03-02-谷物档案-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C04-01-切片吐司",
+      "kind": "carousels",
+      "group": "C04",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0010-C04-01-切片吐司-v003.svg",
+      "png": "carousels/img-0010-C04-01-切片吐司-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C04-02-吐司档案",
+      "kind": "carousels",
+      "group": "C04",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0011-C04-02-吐司档案-v003.svg",
+      "png": "carousels/img-0011-C04-02-吐司档案-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C05-01-香气玩法",
+      "kind": "carousels",
+      "group": "C05",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0012-C05-01-香气玩法-v003.svg",
+      "png": "carousels/img-0012-C05-01-香气玩法-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C05-02-互动步骤",
+      "kind": "carousels",
+      "group": "C05",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0013-C05-02-互动步骤-v003.svg",
+      "png": "carousels/img-0013-C05-02-互动步骤-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C06-01-设计过程",
+      "kind": "carousels",
+      "group": "C06",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0014-C06-01-设计过程-v003.svg",
+      "png": "carousels/img-0014-C06-01-设计过程-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "C06-02-过程说明",
+      "kind": "carousels",
+      "group": "C06",
+      "width": 1080,
+      "height": 1440,
+      "svg": "editable/img-0015-C06-02-过程说明-v003.svg",
+      "png": "carousels/img-0015-C06-02-过程说明-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID01-品牌主张",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0016-GRID01-品牌主张-v003.svg",
+      "png": "grid/img-0016-GRID01-品牌主张-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID02-长条餐包",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0017-GRID02-长条餐包-v003.svg",
+      "png": "grid/img-0017-GRID02-长条餐包-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID03-转角",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0018-GRID03-转角-v003.svg",
+      "png": "grid/img-0018-GRID03-转角-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID04-谷物面包",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0019-GRID04-谷物面包-v003.svg",
+      "png": "grid/img-0019-GRID04-谷物面包-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID05-香气玩法",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0020-GRID05-香气玩法-v003.svg",
+      "png": "grid/img-0020-GRID05-香气玩法-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID06-切片吐司",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0021-GRID06-切片吐司-v003.svg",
+      "png": "grid/img-0021-GRID06-切片吐司-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID07-品牌颜色",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0022-GRID07-品牌颜色-v003.svg",
+      "png": "grid/img-0022-GRID07-品牌颜色-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID08-四种心情",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0023-GRID08-四种心情-v003.svg",
+      "png": "grid/img-0023-GRID08-四种心情-v003.png",
+      "ai_disclosure": true
+    },
+    {
+      "id": "GRID09-日常收束",
+      "kind": "grid",
+      "group": null,
+      "width": 1080,
+      "height": 1080,
+      "svg": "editable/img-0024-GRID09-日常收束-v003.svg",
+      "png": "grid/img-0024-GRID09-日常收束-v003.png",
+      "ai_disclosure": true
+    }
+  ],
+  "source_script": "src/m4/social-build-v001.py",
+  "copy_source": "src/m4/social-copy-v001.json",
+  "status": "local concept assets; not published"
+}

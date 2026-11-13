@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-13",
+  "phase": "M2_fusion_validation",
+  "selected_direction": "B_system_with_C_daylight_and_food_texture",
+  "production_master_completed": false,
+  "tool": "image_gen built-in",
+  "cost_note": "工具未暴露实际模型版本、费用或GPU，null为未知。墙钟含队列与工具服务等待；并发请求不可相加当制作工时。",
+  "service_failures": 0,
+  "retries": 0,
+  "runs": [
+    {
+      "asset_id": "M2-BC-BAG-01",
+      "file": "[本机路径已隐藏]",
+      "reference_files": [
+        "[本机路径已隐藏]",
+        "[本机路径已隐藏]"
+      ],
+      "prompt": "Use case: lighting-weather. Edit Image 1, the forest-green/orange bakery paper bag mockup, borrowing ONLY Image 2's natural warm daylight and food material. Landscape 3:2. Preserve Image 1's exact bag shape, folded top, block bottom, position, three-quarter angle, green right-angle printed band continuing to side, small orange corner, geometric wordmark, exact text and P01 bread beside the bag. Maintain exact printed words \"顺路面包\", \"顺路，把今天带回家。\", \"SHUNLU BAKERY\" and external footer \"AI CONCEPT / NOT PRODUCTION ART\". Do NOT borrow serif lettering or circular graphics. Introduce soft afternoon window light from upper left, subtle architectural shadow on the background and tabletop, warm inviting natural bread crust with fine imperfections and restrained highlights. Paper should have believable fine uncoated fibers and clean creases, not coarse luxurious handmade art paper. Keep forest-green ink deep and true, orange a restrained warm accent, cream bag not heavily yellow. Text remains crisp and clearly legible. Keep bread three shallow diagonal scores, rounded ends, no flour, seeds or filling. Bag remains an ordinary practical handleless bakery sack. No new props, no hands, no new products, no QR, real address, badge, gold foil, circles, smoke, floating particles or drifting ribbons. Result should look like the same B packaging photographed in C's welcoming daylight. Preserve all branding and construction; change light and natural material refinement only.",
+      "tool": "image_gen built-in",
+      "started_at": "2026-10-13T01:42:31.318Z",
+      "image_returned_at": "2026-10-13T01:43:23.074Z",
+      "saved_at": "2026-10-13T01:43:23.845Z",
+      "call_wall_seconds": 51.756,
+      "total_wall_seconds": 52.527,
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "status": "reviewed_fusion_study_not_production_master",
+      "retry_of": null
+    },
+    {
+      "asset_id": "M2-BC-HERO-01",
+      "file": "[本机路径已隐藏]",
+      "reference_files": [
+        "[本机路径已隐藏]",
+        "[本机路径已隐藏]"
+      ],
+      "prompt": "Use case: lighting-weather. Edit Image 1, the green/orange geometric bakery poster, using Image 2 ONLY as reference for natural daylight and bread material. Produce one refined landscape 3:2 brand key visual. Maintain Image 1's entire graphic layout: the Chinese geometric wordmark, forest-green curved right-angle band, small orange corner, cream ground, copy placement, footer and one whole bread. Keep exact text unchanged: \"顺路面包\", \"顺路，把今天带回家。\", \"SHUNLU BAKERY\", \"愚园路灵感 · 虚构品牌概念\". Do NOT borrow Image 2's serif typography, brown lettering, circles, or its layout. Refine ONLY the material and lighting: soft warm natural afternoon light from upper left, gentle broad window-light falloff mainly in the PRODUCT area on the right, nuanced grounding shadow, tactile natural bread crust with tiny irregularities and restrained highlights, not glossy or plastic. Borrow Image 2's warm appetizing food realism without yellowing the forest green. Cream negative space around left typography remains clean and highly legible. Keep the bread as the same P01 short plump oval roll, three shallow diagonal scores, rounded ends, no flour or seeds, no filling. The green band stays clean and flat, the orange stays a small accent. No leaves, stalks, tableware, smoke, floating ingredients, cloth, glitter, circular aroma motif or added objects. Result should feel like the distinctive B identity with C's quiet human warmth, not merely a warm filter over the whole poster. Preserve all edges and exact text.",
+      "tool": "image_gen built-in",
+      "started_at": "2026-10-13T01:42:31.318Z",
+      "image_returned_at": "2026-10-13T01:43:03.846Z",
+      "saved_at": "2026-10-13T01:43:23.847Z",
+      "call_wall_seconds": 32.528,
+      "total_wall_seconds": 52.529,
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "status": "reviewed_fusion_study_not_production_master",
+      "retry_of": null
+    }
+  ],
+  "quality_review": {
+    "method": "查看原图及对照图；人工检查可读文字、三个割口、转角图形、纸袋结构和新增元素",
+    "findings": [
+      "B绿橙转角与字形方向保留",
+      "C自然窗光与暖色食品质感进入画面",
+      "没有引入宋体、圆形标识、烟雾、飘带或额外配料",
+      "生成图依然存在局部高光，未把它宣称为完全哑光",
+      "图形受场景光照影响的显示颜色不等于VI标准色",
+      "字形仍是栅格，未制作矢量母版或核定正式字体许可"
+    ]
+  }
+}

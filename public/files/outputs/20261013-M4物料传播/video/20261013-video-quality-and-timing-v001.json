@@ -1,0 +1,27 @@
+{
+  "final_video_count": 9,
+  "cover_count": 16,
+  "subtitle_count": 9,
+  "delivery_seconds_sum": 120.0,
+  "unique_concept_timeline_seconds": 72,
+  "raw_screen_seconds": 9.4,
+  "raw_screen_frame_rate": "25/1",
+  "browser_stage_seconds": 9.503,
+  "record_in_to_out_seconds": 8.369,
+  "template_app_latency_ms": 13,
+  "latency_caveat": "local template access only; not AI inference or consumer speed benchmark",
+  "download_matches_A01": true,
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "seconds": 24.0,
+    "peak_dbfs": -23.939384195704008,
+    "rms_dbfs": -33.7385696485472,
+    "clipped_samples": 0
+  },
+  "video_model_called": false,
+  "video_model_generated_seconds": 0,
+  "image_generation_cost": "Reused M2 and M4 images; no duplicated charge in video ledger",
+  "cost_total": "unknown",
+  "tests": "9 ffprobe sizes/durations/fps/codecs; 16 cover sizes; 9 SRT; no audio clipping; source/download hashes; sampled frames visually inspected"
+}

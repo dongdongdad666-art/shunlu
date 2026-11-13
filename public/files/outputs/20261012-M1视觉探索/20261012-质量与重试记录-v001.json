@@ -1,0 +1,13 @@
+{
+  "phase": "M1",
+  "selected_direction": null,
+  "service_call_failures": 0,
+  "content_revision_calls": 1,
+  "records": [
+    {"id":"QA-001","asset_id":"M1-C-HERO","type":"visual_direction_drift","finding":"香气处理过于像透明飘带和飞散原料","action":"保持文字与产品，编辑背景香气，去除布料感及大颗粒","retry_asset_id":"M1-C-HERO-R1","status":"v002用于当前比较，v001保留"},
+    {"id":"QA-002","asset_id":"M1-PRODUCT-REF","type":"product_spec_deviation","finding":"P02浅色薄片偏密，单弧形割口不够稳定","action":"仅作为M1参考，不升级为正式母版；M2重建或精修","retry_asset_id":null,"status":"known_limitation"},
+    {"id":"QA-003","asset_id":"M1-P01-ALL","type":"identity_consistency_limit","finding":"P01保留三割口无撒料，但视角、比例和皮纹不完全一致","action":"M1比较允许；M2使用锁定产品母图合成","retry_asset_id":null,"status":"not_production_ready"},
+    {"id":"QA-004","asset_id":"M1-ALL-TYPE","type":"raster_typography","finding":"生成文字可辨但不是矢量母版，字体许可尚未对应正式字体","action":"选定方向后重建Logo与排版规范","retry_asset_id":null,"status":"concept_only"}
+  ],
+  "process_issue": {"error":"Windows CreateProcess error 206","cause":"一次性把较长提示词和记录嵌入命令行超过长度限制","resolution":"改用apply_patch写入文本文件，未丢失图像或覆盖原文件","category":"file_persistence_issue_not_image_generation_failure"}
+}

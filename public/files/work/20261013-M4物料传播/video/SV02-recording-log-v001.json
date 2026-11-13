@@ -1,0 +1,93 @@
+{
+  "started_utc": "2026-10-13T03:54:11.863Z",
+  "stage_elapsed_ms": 9503,
+  "raw_video": "[本机路径已隐藏]",
+  "events": [
+    {
+      "action": "page_ready",
+      "elapsed_ms": 130
+    },
+    {
+      "action": "record_in",
+      "elapsed_ms": 302
+    },
+    {
+      "action": "state_selected",
+      "elapsed_ms": 1139
+    },
+    {
+      "action": "taste_selected",
+      "elapsed_ms": 1966
+    },
+    {
+      "action": "compose_clicked",
+      "elapsed_ms": 2900
+    },
+    {
+      "action": "result_visible",
+      "elapsed_ms": 2912
+    },
+    {
+      "action": "download_saved",
+      "elapsed_ms": 5835
+    },
+    {
+      "action": "record_out",
+      "elapsed_ms": 8671
+    }
+  ],
+  "app_events": [
+    {
+      "name": "page_view",
+      "time": "2026-10-13T03:54:12.588Z",
+      "session_id": "45bd7263-71e1-40e2-aaa2-cdf73a506935",
+      "data_kind": "test",
+      "source_channel": "direct",
+      "generation_mode": "template_demo",
+      "model_call_made": false,
+      "cost_status": "not_metered",
+      "page": "aroma"
+    },
+    {
+      "name": "composition_started",
+      "time": "2026-10-13T03:54:15.429Z",
+      "session_id": "45bd7263-71e1-40e2-aaa2-cdf73a506935",
+      "data_kind": "test",
+      "source_channel": "direct",
+      "generation_mode": "template_demo",
+      "model_call_made": false,
+      "cost_status": "not_metered",
+      "asset_id": "A01",
+      "request_id": 1,
+      "fallback_used": true
+    },
+    {
+      "name": "card_rendered",
+      "time": "2026-10-13T03:54:15.442Z",
+      "session_id": "45bd7263-71e1-40e2-aaa2-cdf73a506935",
+      "data_kind": "test",
+      "source_channel": "direct",
+      "generation_mode": "template_demo",
+      "model_call_made": false,
+      "cost_status": "not_metered",
+      "asset_id": "A01",
+      "request_id": 1,
+      "fallback_used": true,
+      "latency_ms": 13
+    },
+    {
+      "name": "export_triggered",
+      "time": "2026-10-13T03:54:18.178Z",
+      "session_id": "45bd7263-71e1-40e2-aaa2-cdf73a506935",
+      "data_kind": "test",
+      "source_channel": "direct",
+      "generation_mode": "template_demo",
+      "model_call_made": false,
+      "cost_status": "not_metered",
+      "asset_id": "A01",
+      "format": "share",
+      "bytes": 2276969
+    }
+  ],
+  "mode": "Real automated browser actions; native prototype unchanged; template demo; no online model"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "M4-IMG01",
+    "started": "2026-10-13T03:57:00.696Z",
+    "observed_ms": 34917,
+    "prompt": "Use case: product-mockup. Create one photorealistic editorial packaging concept image for fictional Shanghai neighborhood bakery 顺路面包 (SHUNLU BAKERY). Reference image 1 is the exact locked FRONT printed artwork; reference image 2 is exact SIDE panel artwork. Apply the complete graphics to a single matte pale cream paper bakery bag, no handles, flat folded top, dimensions approximately 22 cm wide 30 cm tall 8 cm deep. Keep the heavy sans-serif Chinese wordmark 顺路面包 identical, retain all printed copy, one dark forest green right-turn path near the bottom and small burnt orange corner symbol. Do not redesign the logo, use serif type, add plants or create a store sign. Scene: quiet early morning window ledge, cream plaster wall and pale stone surface, soft fresh oblique morning daylight, subtle tree-leaf shadow OUTSIDE the paper bag. Bag front faces camera almost straight, with narrow right side visible, whole bag visible and some surrounding breathing room. Premium yet ordinary neighborhood bread shop feeling; tactile paper folds and subtle ink print, warm honest daylight, restrained green cream orange palette. Landscape 3:2 composition, bag centered slightly left, empty room on right, no extra products or people, no added overlay headline, no real address, no watermark. Clearly a hypothetical design visualization, not a real location documentary. Maintain exact front artwork and relative front/side dimensions; highest fidelity to the graphic design references.",
+    "path": "[本机路径已隐藏]",
+    "tool": "image_gen.imagegen",
+    "model_version": null,
+    "api_cost": null,
+    "gpu_seconds": null,
+    "status": "success",
+    "notes": "调用响应耗时"
+  },
+  {
+    "id": "M4-IMG02",
+    "started": "2026-10-13T03:58:27.782Z",
+    "observed_ms": 53688,
+    "prompt": "Edit the supplied fictional bakery paper bag scene. Change ONLY the setting and daylight to quiet afternoon: the exact same bag sits on a simple pale natural wood community reading-table beside a large window, soft neutral afternoon daylight with broad shadows, unbranded closed thin book distant in the background allowed. Keep camera composition and full bag scale broadly similar, landscape3:2. Lock the bag's paper, fold, dimensions, front-to-right-side view, printed Chinese logo 顺路面包, all typography and exact green-orange graphic layout. Do not reinterpret or redraw the branding. Keep its large rounded green right-angle path and tiny orange corner. No people, no actual street/store landmark, no food, no extra bags, no added text/captions/watermarks. This is an AI fictional packaging concept, not a photo of a real place. Preserve all lettering exactly. Gentle warm light but avoid orange color cast across logo.",
+    "path": "[本机路径已隐藏]",
+    "tool": "image_gen.imagegen",
+    "model_version": null,
+    "api_cost": null,
+    "gpu_seconds": null,
+    "status": "success",
+    "notes": "与另一张并行，观测耗时含保存步骤；不能相加作为总墙钟耗时"
+  },
+  {
+    "id": "M4-IMG03",
+    "started": "2026-10-13T03:58:27.783Z",
+    "observed_ms": 53703,
+    "prompt": "Edit the supplied fictional bakery paper bag scene. Change ONLY the setting and daylight to evening at home: same exact bag on a quiet light wood dining table near a window with a low amber sunset beam, long soft-edged shadow on neutral cream wall, restrained warm evening atmosphere. Camera composition and full bag scale broadly similar, landscape3:2. Lock the bag's paper, fold, dimensions, front-to-right-side view, printed Chinese logo 顺路面包, all typography and exact green-orange graphic layout. Do not reinterpret or redraw the branding. Preserve large rounded green right-angle and tiny orange corner. No people, no actual street/store landmark, no food, no extra bags, no added text/captions/watermarks. This is an AI fictional packaging concept, not a photo of a real place. Preserve all lettering exactly, keep green ink readable, no artificial neon or theatrical spotlights.",
+    "path": "[本机路径已隐藏]",
+    "tool": "image_gen.imagegen",
+    "model_version": null,
+    "api_cost": null,
+    "gpu_seconds": null,
+    "status": "success",
+    "notes": "与另一张并行，观测耗时含保存步骤；不能相加作为总墙钟耗时"
+  }
+]

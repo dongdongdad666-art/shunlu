@@ -1,0 +1,9 @@
+"asset_id","file","width","height","selected_for_comparison","status","wall_seconds","api_cost","gpu_seconds","sha256","retry_of"
+"M1-PRODUCT-REF","final/img-0001-产品参考板-v001.png","1536","1024","False","reference_only_not_final_product_master","21.886",,,"AB1A5BEC4D98C66B8BB638C85A2704019A00D5B1F0D05ED2F6CADE0EB215B9F5",
+"M1-A-HERO","final/img-0002-A日常信息-主视觉-v001.png","1536","1024","True","accepted_for_M1_direction_comparison","76.373",,,"E4AFFAC196856975719115D62F9D5D6AF02046141C721CAD5037B5963B4F2EFE",
+"M1-B-HERO","final/img-0003-B路径转角-主视觉-v001.png","1536","1024","True","accepted_for_M1_direction_comparison","76.377",,,"D15D8352562CEFD93B0B2355F36141CCC9EDD1F4D8B1A8CB237C58F387303AB2",
+"M1-C-HERO","final/img-0004-C生活时刻-主视觉-v001.png","1536","1024","False","superseded_by_targeted_edit","76.393",,,"163B5109BB9BE4E8176D61F8EB9E007E91DB8E181936172C0F4D5887BD15CE1C",
+"M1-B-BAG","final/img-0006-B路径转角-纸袋-v001.png","1536","1024","True","accepted_for_M1_direction_comparison","67.012",,,"4021C9A9F63A1950FEA94C5E88A0F441219804F939D67F4C2F9EFD16CBFDDE7F",
+"M1-A-BAG","final/img-0005-A日常信息-纸袋-v001.png","1536","1024","True","accepted_for_M1_direction_comparison","111.568",,,"2F71E2CC1FC8D7751306201EF0AC9432309E9782269D28D7B525572A2B984CD5",
+"M1-C-BAG","final/img-0007-C生活时刻-纸袋-v001.png","1536","1024","True","accepted_for_M1_direction_comparison","111.587",,,"F0433240DDC1D64414B62DB9F0CA93A86A0CFF646FB0515C79BF0B62D009005D",
+"M1-C-HERO-R1","final/img-0004-C生活时刻-主视觉-v002.png","1536","1024","True","accepted_for_M1_direction_comparison","23.135",,,"1C45780B3DC80125AD00F75E40A294125B9D13EE3B00831DAA2E0E538BDD2349","M1-C-HERO"

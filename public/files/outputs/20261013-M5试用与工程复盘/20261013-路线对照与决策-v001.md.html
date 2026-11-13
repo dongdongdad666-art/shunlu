@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>路线对照与决策-v001 · 顺路，买个面包</title><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header class="site-header shell"><a class="brand" href="/"><img src="/media/logo.svg" width="150" height="46" alt="顺路，买个面包"></a><nav class="nav" aria-label="主导航"><a href="/">案例</a><a href="/experience/order/">点餐体验</a><a href="/experience/workshop/">香气工坊</a><a href="/process/">过程</a><a href="/library/">资料库</a></nav></header><main id="main" class="shell"><article class="document-reader section"><a href="/library/">← 资料库</a><p>阶段原始记录；当前产品流程以在线体验为准。</p><h1>同一香气卡的两条本地交付路线</h1>
+
+<p>任务固定：A01，慢一点×原味麦香，1080×1440 PNG。相同产品、背景、品牌标识及文案。A读出已验收PNG再写盘；B读取同一SVG并即时栅格化再写盘。输出是本轮真实文件。</p>
+
+<h2>执行条件</h2>
+
+<p>- 环境：本机Windows/Node24.19.0；具体Sharp/libvips版本在原始JSON。</p>
+<p>- 首先执行1次B预热并保存，排除在以下统计外；随后A/B交替顺序，各3次，共6次有效观测，无重试。</p>
+<p>- 计时范围：读盘→必要渲染→写盘，不包含后续规格检查、人工制作、审核、网络下载和模型调用。上限每路线3个有效样本，本轮不增加生成调用。</p>
+<p>- <a href="/files/outputs/20261013-M5%E8%AF%95%E7%94%A8%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%A4%8D%E7%9B%98/20261013-%E8%B7%AF%E7%BA%BF%E5%AF%B9%E7%85%A7%E5%8E%9F%E5%A7%8B%E8%AE%B0%E5%BD%95-v001.json">原始记录</a>包含顺序、毫秒、文件大小、SHA256、输入哈希、工具版本与预热。</p>
+
+<p>| 路线 | n | 最小ms | 中位ms | 最大ms |</p>
+<p>|---|---:|---:|---:|---:|</p>
+<p>| A 已验收PNG直接交付 | 3 | 1.904 | 2.136 | 2.967 |</p>
+<p>| B 同一SVG即时栅格化 | 3 | 316.872 | 318.865 | 323.848 |</p>
+
+<p>6份输出尺寸均通过1080×1440检查，保存在路线试验目录（阶段资料未公开）。面板提供两份代表输出对照。样本小、缓存热、只覆盖一张卡，不能外推P95或真实手机表现。</p>
+
+<h2>项目决策</h2>
+
+<p>固定的12张香气卡优先预生成并验收；留言或模板内容变动时才进行即时组合/导出。已有M3正按这一思路执行。A省去当次栅格化，但历史母图/模板/审核/存储成本不能省略；B保留修改能力，不因此证明总制作成本更高。</p>
+
+<p>此次不是两种AI模型、ComfyUI与商业API的对照，也不是纯手工作业与AIGC的工时对照。模型候选尚未配置真实账户与预算，比较保持未实施；不以本机毫秒差推出ROI、节省百分比或模型排行榜。</p>
+</article></main><footer class="footer shell">自主概念项目 · 原创概念与设计决策，AI辅助图像、文案及代码制作。生成场景不是实拍；演示订单不是经营数据。</footer></body></html>

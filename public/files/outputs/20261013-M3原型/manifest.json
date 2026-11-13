@@ -1,0 +1,152 @@
+[
+  {
+    "file": "20261013-六页UI总览-v001.jpg",
+    "bytes": 285213,
+    "sha256": "3b2b097945e1d2b8f0ab3141dbbe6ed7f21680cb09322e4de61b1eb4bfba396d"
+  },
+  {
+    "file": "20261013-原型操作实录-v001.webm",
+    "bytes": 1036313,
+    "sha256": "b980a6c08c381a845cd0fe52589b3afb8f22db2010cad5c7ae0f3de890dd5b55"
+  },
+  {
+    "file": "20261013-启动本地预览-v001.cmd",
+    "bytes": 307,
+    "sha256": "692c52d55cdeb67dc40852a2f3ef6971b3ffc9319d153054c17016c10b6a4afd"
+  },
+  {
+    "file": "20261013-工程与成本记录-v001.md",
+    "bytes": 3127,
+    "sha256": "fd33a280c1affae34fd301d86932dda1ef7297623af7801b5b1e093f6ed49901"
+  },
+  {
+    "file": "20261013-演示运行事件-v001.json",
+    "bytes": 3960,
+    "sha256": "27656d46eca15ad01755dc364ca5fea02109bf1d93a68b7e29c131cbb9127d8c"
+  },
+  {
+    "file": "20261013-用户旅程与状态矩阵-v001.md",
+    "bytes": 3245,
+    "sha256": "4a15086fdd0929bd8110044acecf5dc9f4e7b2e8c8b5c0310dfecde1bd0bc679"
+  },
+  {
+    "file": "20261013-香气互动总览-v001.jpg",
+    "bytes": 162030,
+    "sha256": "72c5e9d7e7e69378ee5b714144ab302c8bc6fcfcf9475119239116d1a9a30374"
+  },
+  {
+    "file": "20261013-验收与使用边界-v001.md",
+    "bytes": 2602,
+    "sha256": "d567bf858783ab9ccd9ac856fc9b16907483df83eebb9478b81f1050563a6df2"
+  },
+  {
+    "file": "delivery.md",
+    "bytes": 3447,
+    "sha256": "3bff50996113e12a20a0b170ccf3a46629916165a190c48d277b271d7c60a47e"
+  },
+  {
+    "file": "examples\\20261013-打印卡示例-v001.pdf",
+    "bytes": 544020,
+    "sha256": "d1be2c21facc44b9e62b5a820ecfd840b439bbf7eb34f4e9a770ec0237eaae0a"
+  },
+  {
+    "file": "examples\\20261013-香气分享图示例-v001.png",
+    "bytes": 2381760,
+    "sha256": "a587861a77a5659e10f9f41d138f5e4ae2b62a54fe22633397792404d2eceade"
+  },
+  {
+    "file": "examples\\20261013-香气壁纸示例-v001.png",
+    "bytes": 3160694,
+    "sha256": "54acb7d1f2dfe88c10656f8bdd099a6feef59bf0da10b972d92e6502eebe6df1"
+  },
+  {
+    "file": "screens\\01-首页-viewport.png",
+    "bytes": 208521,
+    "sha256": "da759041e073d8e49ea7e5bb43c283bc6e4073f81cde15d183d6f7c65e91a85b"
+  },
+  {
+    "file": "screens\\01-首页.png",
+    "bytes": 316335,
+    "sha256": "655df2b93bbaae62b5cd6ce4dd85ca0f61bd12701dbc20bccc2f839c984c559f"
+  },
+  {
+    "file": "screens\\02-菜单-viewport.png",
+    "bytes": 71179,
+    "sha256": "54303ae59e32db5ff9f24cffa23ca3f5c4b7597ae0cc3992bee8eca8f1d895d9"
+  },
+  {
+    "file": "screens\\02-菜单.png",
+    "bytes": 95824,
+    "sha256": "a7b6748b8e73545cbb3681c8bd3a5464966dbd4fbee2f251734882721f472d67"
+  },
+  {
+    "file": "screens\\03-详情-viewport.png",
+    "bytes": 117858,
+    "sha256": "4e4b563d680022a66a2266edaed90c6443beb87c7eaf6586bd89afbcd260be87"
+  },
+  {
+    "file": "screens\\03-详情.png",
+    "bytes": 142669,
+    "sha256": "cab8ba4bea974f547eba441a5299ddaa723a1670e67d7cc912dd5b017ea9dd6c"
+  },
+  {
+    "file": "screens\\04-购物袋-viewport.png",
+    "bytes": 46535,
+    "sha256": "7e039f127f930d0eaccee56574fc3df62803b1430fa53707abb7308db30d43a8"
+  },
+  {
+    "file": "screens\\04-购物袋.png",
+    "bytes": 58515,
+    "sha256": "72eb860167b77d762cbc9def84cd6fcbdbb63c95ce177a5fe8db7f8a70c05584"
+  },
+  {
+    "file": "screens\\05-确认-viewport.png",
+    "bytes": 40351,
+    "sha256": "8e607a68851774ab0c626e11acdb11df5d56948ffa449f2a79cf9fc39b374f2d"
+  },
+  {
+    "file": "screens\\05-确认.png",
+    "bytes": 62009,
+    "sha256": "30a0599f2f78a55007cbb501e2f8eb75057f8515824db2d9588c5db5da5ef9aa"
+  },
+  {
+    "file": "screens\\06-订单-viewport.png",
+    "bytes": 43835,
+    "sha256": "1558d1eeeba20cf209baa980c5aef80c50507b2a2fc48e7fbfcc50f340d2aa48"
+  },
+  {
+    "file": "screens\\06-订单.png",
+    "bytes": 56173,
+    "sha256": "2a3ddf3b433b5d5fd76d2465a3bf5dfd94e589bf65bbe56c3d39a8314aabe8d4"
+  },
+  {
+    "file": "screens\\07-香气选择-viewport.png",
+    "bytes": 60173,
+    "sha256": "d505ab86ea43d3657c27c22d121ace8c1ef3f9e0fd9addbdc9141dd6f1705533"
+  },
+  {
+    "file": "screens\\07-香气选择.png",
+    "bytes": 106160,
+    "sha256": "01dec37f5b6afcd6174c92bc14ba5daabf4103e4194d7af679ed871d8c74307d"
+  },
+  {
+    "file": "screens\\08-香气结果-viewport.png",
+    "bytes": 226968,
+    "sha256": "e4db5fd8b42c7fa3a961981676fe2055b4914834322e9a963b341c2b48652fc9"
+  },
+  {
+    "file": "screens\\08-香气结果.png",
+    "bytes": 305378,
+    "sha256": "213b4ac6dcb69dce74d564af39dc2d5f6271bbd121d8fc5ea6342136d88e3988"
+  },
+  {
+    "file": "screens\\09-演示券-viewport.png",
+    "bytes": 61271,
+    "sha256": "29369879ecf5951c0ef1d3a48ce774da59c604e6ff5a1f22e6b9e3121cba7072"
+  },
+  {
+    "file": "screens\\09-演示券.png",
+    "bytes": 139890,
+    "sha256": "59127733850341b11fa234c6fd3bdf42aa01fec41713680b23897bdf5be6c4e7"
+  }
+]

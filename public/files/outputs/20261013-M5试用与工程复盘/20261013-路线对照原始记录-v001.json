@@ -1,0 +1,121 @@
+{
+  "task": "A01固定香气分享卡1080×1440交付",
+  "recorded_at": "2026-10-13T04:30:43.287Z",
+  "routes": {
+    "A": "复用已验收PNG：读盘＋写盘",
+    "B": "同一SVG模板即时栅格化：读盘＋Sharp渲染＋写盘"
+  },
+  "input": {
+    "png": "outputs/20261013-M2香气卡/final/img-0001-慢一点-P01-香气卡-v001.png",
+    "svg": "outputs/20261013-M2香气卡/editable/img-0001-慢一点-P01-香气卡-v001.svg",
+    "png_sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+    "svg_sha256": "99d8085ca65263769721c6b49710f9717d3994d0124a45a3b6d27f6add6b6f84"
+  },
+  "warmup": {
+    "route": "B",
+    "iteration": "warmup",
+    "elapsed_ms": 327.621,
+    "bytes": 2276969,
+    "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+    "width": 1080,
+    "height": 1440,
+    "file": "work/20261013-M5试用与工程复盘/route/route-B-warmup.png"
+  },
+  "samples": [
+    {
+      "route": "A",
+      "iteration": 1,
+      "elapsed_ms": 2.967,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-A-1.png"
+    },
+    {
+      "route": "B",
+      "iteration": 1,
+      "elapsed_ms": 323.848,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-B-1.png"
+    },
+    {
+      "route": "B",
+      "iteration": 2,
+      "elapsed_ms": 318.865,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-B-2.png"
+    },
+    {
+      "route": "A",
+      "iteration": 2,
+      "elapsed_ms": 2.136,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-A-2.png"
+    },
+    {
+      "route": "A",
+      "iteration": 3,
+      "elapsed_ms": 1.904,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-A-3.png"
+    },
+    {
+      "route": "B",
+      "iteration": 3,
+      "elapsed_ms": 316.872,
+      "bytes": 2276969,
+      "sha256": "94e6b39371c8b4d5949ae88a19fd03137b1266b5cf521c34692c02ecb48eb29e",
+      "width": 1080,
+      "height": 1440,
+      "file": "work/20261013-M5试用与工程复盘/route/route-B-3.png"
+    }
+  ],
+  "stats": [
+    {
+      "route": "A",
+      "n": 3,
+      "min_ms": 1.904,
+      "median_ms": 2.136,
+      "max_ms": 2.967
+    },
+    {
+      "route": "B",
+      "n": 3,
+      "min_ms": 316.872,
+      "median_ms": 318.865,
+      "max_ms": 323.848
+    }
+  ],
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "sharp": "0.35.5",
+    "vips": "8.18.7"
+  },
+  "budget": {
+    "model_calls": 0,
+    "local_measured_samples": 6,
+    "max_retries": 0
+  },
+  "api_cost": null,
+  "notes": [
+    "本机热缓存局部基准；每路3次，不代表用户端P95或冷启动。",
+    "A的历史生成、审核及存储成本不在这段耗时里；B也使用已完成的模板与AI母图。",
+    "不包含人工制作、交互网络下载、模型推理或排版改稿，不计算降本/省人工百分比。",
+    "固定同一产品、背景、文案、分辨率；两种栅格器可能有抗锯齿差异，须查看前后图。",
+    "本轮不把该对照写成两种AIGC模型比较；未接入模型对照单独保持未实施。"
+  ]
+}

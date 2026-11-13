@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>delivery · 顺路，买个面包</title><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header class="site-header shell"><a class="brand" href="/"><img src="/media/logo.svg" width="150" height="46" alt="顺路，买个面包"></a><nav class="nav" aria-label="主导航"><a href="/">案例</a><a href="/experience/order/">点餐体验</a><a href="/experience/workshop/">香气工坊</a><a href="/process/">过程</a><a href="/library/">资料库</a></nav></header><main id="main" class="shell"><article class="document-reader section"><a href="/library/">← 资料库</a><p>阶段原始记录；当前产品流程以在线体验为准。</p><h1>今天这一炉香气卡交付</h1>
+
+<p>本轮完成4种状态×3款面包的12张验证样卡，沿用B路径与转角系统及C自然光／食物质感。12张是4份AI背景与固定产品母图的模板组合，不是12次独立生图，也不是实时交互服务。</p>
+
+<h2>查看与使用</h2>
+
+<p>- 12张卡总览（阶段资料未公开）：按行比较状态，按列比较固定产品。</p>
+<p>- <a href="/files/outputs/20261013-M2%E9%A6%99%E6%B0%94%E5%8D%A1/20261013-%E5%93%81%E7%89%8C%E4%B8%8E%E9%A6%99%E6%B0%94%E8%A7%84%E8%8C%83-v004.pdf">10页品牌与香气规范</a>：前5页继承基础资产，后5页补充香气语法、矩阵、模板、多尺寸与生成证据。</p>
+<p>- <a href="/files/outputs/20261013-M2%E9%A6%99%E6%B0%94%E5%8D%A1/20261013-%E6%89%93%E5%8D%B0%E9%A6%99%E6%B0%94%E5%8D%A1%E4%B8%89%E6%AC%BE%E7%A4%BA%E4%BE%8B-v001.pdf">3款打印卡PDF</a>：100×148mm，白边版本，含3mm出血与裁切标记。</p>
+<p>- 映射与文案JSON（阶段资料未公开）、<a href="/files/outputs/20261013-M2%E9%A6%99%E6%B0%94%E5%8D%A1/20261013-%E6%A8%A1%E6%9D%BF%E4%BD%BF%E7%94%A8%E4%B8%8E%E6%9D%A5%E6%BA%90-v001.md.html">模板使用说明</a>。</p>
+
+<p>| 文件位置 | 数量和规格 | 用途 |</p>
+<p>|---|---|---|</p>
+<p>| final/ | 12张，1080×1440 PNG | 分享卡展示与后续原型素材 |</p>
+<p>| editable/ | 12份，自包含分层SVG | 调整版式、图层与颜色；文字已转曲 |</p>
+<p>| wallpapers/ | 3张1080×1920 PNG＋3份SVG | A01、A05、A12的壁纸适配示例 |</p>
+<p>| 打印卡PDF | 3页 | A01、A05、A12；RGB概念打样稿 |</p>
+<p>| 品牌与香气规范PDF | 10页 | 作为当前品牌系统总入口 |</p>
+<p>| manifest.csv / prompts.md / 生成记录JSON | 各1 | 追溯素材、提示词与实际生成路由 |</p>
+
+<p>三份壁纸和打印卡是已有设计的适配，不重复计为新增创意。4份原始背景保存在项目assets/aroma/20261013/；所有文件在本项目内。</p>
+
+<h2>验证结果</h2>
+
+<p>12格组合无重复遗漏；不同状态下相同产品的嵌入图像与原母图SHA256一致。所有SVG独立内嵌背景与产品，没有外部字体或图片依赖。检查了卡面文字、深浅背景、3种尺寸、10页PDF统一页码、打印TrimBox和BleedBox。</p>
+
+<p>背景共调用内置image_gen 4次，0次图像重试；批次观察等待约71.9秒，不是全流程工时。API费用、GPU时间和实际模型版本保持未知。</p>
+
+<h2>当前边界</h2>
+
+<p>- 「慢一点」与「想分享」的视觉区别较含蓄，主要靠光域与短句；尚未开展用户辨识测试。</p>
+<p>- 卡面是香气艺术隐喻，产品和品牌均为概念设定；不生成历史故事、心理结论或真实商品功效。</p>
+<p>- 壁纸尚未真机适配；打印稿未做实物打样、CMYK转换或PDF/X认证。名称清权沿用上一阶段待办。</p>
+<p>- 本轮完成M2素材制作与技术验收，设计评审仍由用户完成；后续进入规划中的互动／物料阶段。</p>
+
+<p>项目文件夹：[本机路径已隐藏]</p>
+
+</article></main><footer class="footer shell">自主概念项目 · 原创概念与设计决策，AI辅助图像、文案及代码制作。生成场景不是实拍；演示订单不是经营数据。</footer></body></html>

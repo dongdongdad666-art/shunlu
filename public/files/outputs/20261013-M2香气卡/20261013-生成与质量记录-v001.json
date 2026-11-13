@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-13",
+  "stage": "M2香气卡",
+  "method": "4 AI pre-generated backgrounds + 3 reused fixed product images + outlined vector typography + deterministic layout",
+  "image_calls": 4,
+  "image_retries": 0,
+  "background_batch_observed_seconds": 71.922,
+  "model": null,
+  "api_cost": null,
+  "gpu_seconds": null,
+  "billing_note": "No actual model version, API billing or GPU time exposed. Observed latency includes waiting/queue. Prior product-generation cost not recounted.",
+  "runs": [
+    {
+      "id": "S01",
+      "file": "img-0001-慢一点-香气背景-v001.png",
+      "start": "2026-10-13T02:19:06.223Z",
+      "end": "2026-10-13T02:19:27.149Z",
+      "elapsed_seconds": 20.926,
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "copy_exit": 0
+    },
+    {
+      "id": "S03",
+      "file": "img-0003-想分享-香气背景-v001.png",
+      "start": "2026-10-13T02:19:06.223Z",
+      "end": "2026-10-13T02:20:01.830Z",
+      "elapsed_seconds": 55.607,
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "copy_exit": 0
+    },
+    {
+      "id": "S02",
+      "file": "img-0002-想出发-香气背景-v001.png",
+      "start": "2026-10-13T02:19:06.223Z",
+      "end": "2026-10-13T02:19:44.823Z",
+      "elapsed_seconds": 38.6,
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "copy_exit": 0
+    },
+    {
+      "id": "S04",
+      "file": "img-0004-留给自己-香气背景-v001.png",
+      "start": "2026-10-13T02:19:06.223Z",
+      "end": "2026-10-13T02:20:18.145Z",
+      "elapsed_seconds": 71.922,
+      "model": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "copy_exit": 0
+    }
+  ],
+  "selection": "assistant visual inspection and structural checks; not user-test results",
+  "qa": {
+    "S01": "横向暖光与疏朗细纹理可见，保留",
+    "S02": "3条斜向晨光可见，保留",
+    "S03": "两侧光域向中心交汇可见，保留；与S01较接近，差异属含蓄表达",
+    "S04": "单侧光域与较深米灰留白可见，保留",
+    "products": "12份SVG中产品位图哈希与源图一致；未重绘、改形或添加原料",
+    "layout": "12张分享卡总览及代表大图、3种适配、5页新增规范和3页打印预览已查看",
+    "print": "RGB概念打样稿；裁切100×148mm，出血3mm，外纸张112×160mm，留白边框≥5mm；无实物打样"
+  },
+  "unvalidated": [
+    "用户对四种状态的辨识度",
+    "真实手机时钟及通知遮挡",
+    "纸张/ICC/实物打样",
+    "名称与全部商业许可清权",
+    "真实互动API与营销效果"
+  ],
+  "orchestration_errors": [
+    {
+      "count": 2,
+      "kind": "JavaScript syntax in tool orchestration",
+      "impact": "数据落盘前未执行；移除多余闭合符后重发，未新增图像生成请求"
+    }
+  ]
+}

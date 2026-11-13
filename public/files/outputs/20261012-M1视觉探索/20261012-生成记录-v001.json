@@ -1,0 +1,176 @@
+{
+  "phase": "M1",
+  "selected_direction": null,
+  "tool": "image_gen built-in",
+  "billing_note": "工具未暴露模型版本、费用、GPU或计费明细；null为未知，不表示免费。墙钟时间不是GPU时间。",
+  "runs": [
+    {
+      "asset_id": "M1-PRODUCT-REF",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: product-mockup. Create a professional neutral bread product reference board, landscape 3:2, three spacious columns on a seamless warm ivory studio background. Photorealistic bakery still life, accurate fine crust textures, gentle daylight, same camera height and lighting. Column left P01: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Column middle P02: one low domed round grain loaf, diameter to height 2.3:1, exactly one curved score, medium wheat-brown crust with sparse pale oat-like flakes on top, no nuts, raisins or dark seeds. Column right P03: short square sandwich loaf segment, flat top, softly rounded corners, two equal-thickness slices placed clearly in front, thin golden-brown crust, warm ivory fine crumb, no filling or toppings. Small tidy typography under each column only: P01, P02, P03. No decorative props, no scattered ingredients, no collage, no hands. Full silhouettes with comfortable separation and no overlap across columns. This is a fictional product concept board, not a recipe or factual product photo. Bottom small text exactly: CONCEPT PRODUCT STUDY. Strong appetizing realism and consistent relative object scale.",
+      "started_at": "2026-10-12T08:45:03.237Z",
+      "ended_at": "2026-10-12T08:45:25.123Z",
+      "wall_seconds": 21.886,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "reference_only_not_final_product_master",
+      "operation_id": "M1-PRODUCT-REF",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-A-HERO",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: ads-marketing. Asset: premium creative-direction key visual, landscape 3:2. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image is ONLY for product identity: use the P01 bread from the LEFT column, do not use P02 or P03 and do not reproduce the reference board. Hero bread: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Make an exquisite, confident, original graphic design poster with generous intentional space. EXACT text only: large Chinese brand \"顺路面包\"; secondary line \"顺路，把今天带回家。\"; small English \"SHUNLU BAKERY\"; small footer \"愚园路灵感 · 虚构品牌概念\". Chinese must be accurate and legible. No extra text. One whole P01 bread only. Direction A — everyday information, beautifully disciplined contemporary editorial design. Warm off-white paper #F4F0E6, near-black #22231F, a small strong vermilion #B94832 accent. An oversized compact utilitarian Chinese typographic wordmark occupies upper left, editorial fine rules and a red rectangular information tab, precise rational alignment. Bread photographed from slightly elevated 3/4 view on the right/lower field, appetizing with subtle shadow. A quiet vertical rule divides large type and product; visual is 70% ivory with red used as a purposeful single stripe/label. Neighbourhood notice and useful paper goods as a modern design attitude, NOT a replica of any actual local sign. No nostalgic grunge, no newspaper collage, no wheat icon, no badge seal, no decorative curlicues. Warm human daily bakery, not luxury perfume. Flat artwork, not a framed poster mockup.",
+      "reference_files": [
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:46:40.230Z",
+      "ended_at": "2026-10-12T08:47:56.603Z",
+      "wall_seconds": 76.373,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-A-HERO",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-B-HERO",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: ads-marketing. Asset: premium creative-direction key visual, landscape 3:2. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image is ONLY for product identity: use the P01 bread from the LEFT column, do not use P02 or P03 and do not reproduce the reference board. Hero bread: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Make an exquisite, confident, original graphic design poster with generous intentional space. EXACT text only: large Chinese brand \"顺路面包\"; secondary line \"顺路，把今天带回家。\"; small English \"SHUNLU BAKERY\"; small footer \"愚园路灵感 · 虚构品牌概念\". Chinese must be accurate and legible. No extra text. One whole P01 bread only. Direction B — path and turn, bold contemporary geometric graphic system. Pale butter #EFE8D5, saturated forest green #234E43 and restrained persimmon #D96839. A broad folded right-angle green band turns once across the landscape like an abstract route and a folded paper edge, spacious and architectonic. The photographic bread sits at the inside corner, integrated with the shape. Brand in strong custom-feeling geometric Chinese lettering, placed with optical precision at upper left; secondary line neatly below. A small orange right-angle accent answers the green turn. A fresh community bakery with memorable graphic identity. The path is purely abstract, no maps, real street signs, architecture, location pins, arrows or road names. No vintage kraft cliché, no circular badges, no gradient. Flat print artwork, not a poster on wall.",
+      "reference_files": [
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:46:40.230Z",
+      "ended_at": "2026-10-12T08:47:56.607Z",
+      "wall_seconds": 76.377,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-B-HERO",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-C-HERO",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: ads-marketing. Asset: premium creative-direction key visual, landscape 3:2. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image is ONLY for product identity: use the P01 bread from the LEFT column, do not use P02 or P03 and do not reproduce the reference board. Hero bread: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Make an exquisite, confident, original graphic design poster with generous intentional space. EXACT text only: large Chinese brand \"顺路面包\"; secondary line \"顺路，把今天带回家。\"; small English \"SHUNLU BAKERY\"; small footer \"愚园路灵感 · 虚构品牌概念\". Chinese must be accurate and legible. No extra text. One whole P01 bread only. Direction C — daily light and aroma, sensorial editorial art direction. Oat white #F5ECD9, warm wheat gold #D6A052, warm brown #6B3E29. One beautiful natural-light bread still life on an oat-white tabletop, late-afternoon oblique window light. Around and BEHIND the bread, subtle translucent amber layers and tiny warm grain-like light particles create an abstract aroma metaphor, airy not smoke, luminous not fantasy. Food remains physically real, unaltered, matte crust. Large refined Chinese wordmark at upper left in warm brown, confident crisp typography, with the secondary line on a clean horizontal baseline. Considered asymmetrical composition with the bread lower right and generous light space. More emotionally tactile and photographic than A or B. No trees, building facades, wheat sprigs, fog, neon, faces, cartoon characters or overdone bokeh. Flat campaign image with typography, not a moodboard.",
+      "reference_files": [
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:46:40.230Z",
+      "ended_at": "2026-10-12T08:47:56.623Z",
+      "wall_seconds": 76.393,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "superseded_by_targeted_edit",
+      "operation_id": "M1-C-HERO",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-B-BAG",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: product-mockup. Asset: landscape 3:2 photorealistic packaging direction study. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image 1 is the approved-direction poster style reference, image 2 is the bread identity reference; use only its left P01 bread. Create ONE modest practical cream uncoated paper bakery bag, block bottom, folded top lip, NO handles, about 26cm high by 18cm wide, front in clear three-quarter view on a simple warm ivory table and backdrop. One whole P01 bread lying beside the bag: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Keep bag and bread fully in frame. Focus on legible printed branding, real paper folds and soft daylight shadow. This is a raster exploratory mockup, not manufacturing artwork. Bag must say EXACTLY \"顺路面包\", \"SHUNLU BAKERY\", and \"顺路，把今天带回家。\" — no additional bag text or fake QR codes. Small external footer outside the object reads exactly \"AI CONCEPT / NOT PRODUCTION ART\". No handles, ribbons, flowers, plants, other pastries, real street or hands. Direction B. The bag uses the poster's memorable forest-green right-angle band as a TWO-DIMENSIONAL print that turns around the lower front and continues onto the side gusset, with a small persimmon-orange corner accent. Upper front carries bold geometric green Chinese lettering and clear small copy, precisely aligned. Green and orange spot-color feeling on cream stock; no gradient and no photo printing. Actual paper construction remains a simple rectangular bakery bag; graphic turn must not deform bag geometry. Modern, confident and warm, calm clean studio daylight. Show wraparound graphic on visible side.",
+      "reference_files": [
+        "[本机路径已隐藏]",
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:49:01.275Z",
+      "ended_at": "2026-10-12T08:50:08.287Z",
+      "wall_seconds": 67.012,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-B-BAG",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-A-BAG",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: product-mockup. Asset: landscape 3:2 photorealistic packaging direction study. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image 1 is the approved-direction poster style reference, image 2 is the bread identity reference; use only its left P01 bread. Create ONE modest practical cream uncoated paper bakery bag, block bottom, folded top lip, NO handles, about 26cm high by 18cm wide, front in clear three-quarter view on a simple warm ivory table and backdrop. One whole P01 bread lying beside the bag: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Keep bag and bread fully in frame. Focus on legible printed branding, real paper folds and soft daylight shadow. This is a raster exploratory mockup, not manufacturing artwork. Bag must say EXACTLY \"顺路面包\", \"SHUNLU BAKERY\", and \"顺路，把今天带回家。\" — no additional bag text or fake QR codes. Small external footer outside the object reads exactly \"AI CONCEPT / NOT PRODUCTION ART\". No handles, ribbons, flowers, plants, other pastries, real street or hands. Direction A. Translate the typography of reference 1 onto the bag: strong near-black Chinese lettering on front in compact 2x2 arrangement, one thin vermilion horizontal stripe below, small neatly aligned copy. Rational editorial grid and simple utilitarian print. Cream paper remains mostly unprinted, ordinary bakery material rendered beautifully. Two ink colors only, near-black and vermilion, no photographic printing or decorative emblem. The bag looks useful and friendly rather than a luxury shopping bag. Shot with neutral balanced light and ample negative space, product and paper equally clear.",
+      "reference_files": [
+        "[本机路径已隐藏]",
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:49:01.275Z",
+      "ended_at": "2026-10-12T08:50:52.843Z",
+      "wall_seconds": 111.568,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-A-BAG",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-C-BAG",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: product-mockup. Asset: landscape 3:2 photorealistic packaging direction study. This is an original fictional Shanghai neighborhood bakery concept, not a real shop. Produce a polished design-direction sample, not a generic stock ad. Working brand Chinese name must read exactly 顺路面包. No invented real address, founding date, awards, prices, QR codes or real store facades. Do not imitate existing brands. Reference image 1 is the approved-direction poster style reference, image 2 is the bread identity reference; use only its left P01 bread. Create ONE modest practical cream uncoated paper bakery bag, block bottom, folded top lip, NO handles, about 26cm high by 18cm wide, front in clear three-quarter view on a simple warm ivory table and backdrop. One whole P01 bread lying beside the bag: one plump short oval bread roll, length to width roughly 3:1, rounded ends, exactly THREE shallow diagonal scores, honey-gold MATTE crust, NO flour dusting, NO seeds, NO filling. Keep bag and bread fully in frame. Focus on legible printed branding, real paper folds and soft daylight shadow. This is a raster exploratory mockup, not manufacturing artwork. Bag must say EXACTLY \"顺路面包\", \"SHUNLU BAKERY\", and \"顺路，把今天带回家。\" — no additional bag text or fake QR codes. Small external footer outside the object reads exactly \"AI CONCEPT / NOT PRODUCTION ART\". No handles, ribbons, flowers, plants, other pastries, real street or hands. Direction C. Translate reference 1's warm light/aroma sensibility into restrained everyday paper packaging: refined brown Chinese wordmark, smaller brown copy, and one quiet amber layered soft-edged circular aroma imprint in the LOWER third of the bag. It is clearly an abstract printed mark, NOT a photograph of bread and NOT smoke, flames or flowing fabric. Keep 70% of the cream paper blank. No gold foil, embossing, ribbon, luxury perfume styling or theatrical floating particles. Subtle late-afternoon natural light, bread appetizing, paper tactile; practical community bakery packaging with a gentle sensory accent. Bag front text crisp and legible.",
+      "reference_files": [
+        "[本机路径已隐藏]",
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:49:01.275Z",
+      "ended_at": "2026-10-12T08:50:52.862Z",
+      "wall_seconds": 111.587,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": null,
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-C-BAG",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    },
+    {
+      "asset_id": "M1-C-HERO-R1",
+      "file": "[本机路径已隐藏]",
+      "prompt": "Use case: precise-object-edit. Edit the supplied C direction bakery campaign key visual. Keep the complete Chinese text, wordmark, type layout, footer, bread shape with its three diagonal scores, bread position, camera, warm oat palette and sunlight unchanged. Change ONLY the aroma treatment behind the bread: remove the flowing translucent fabric-like ribbons and all large floating oat/seed-like pieces. Replace them with two very subtle soft amber elliptical washes of light, barely visible, and a restrained fine grain texture confined to the background. It should feel like quiet late-afternoon warmth and food aroma, not a perfume advertisement, smoke, flying ingredients or fabric. Do not add props or alter the product. Preserve the image size and sharpness. Exact existing Chinese text must remain unchanged.",
+      "reference_files": [
+        "[本机路径已隐藏]"
+      ],
+      "started_at": "2026-10-12T08:51:20.420Z",
+      "ended_at": "2026-10-12T08:51:43.555Z",
+      "wall_seconds": 23.135,
+      "tool": "image_gen built-in",
+      "model_version": null,
+      "api_cost": null,
+      "gpu_seconds": null,
+      "cost_status": "not_exposed_by_tool",
+      "retry_of": "M1-C-HERO",
+      "status": "accepted_for_M1_direction_comparison",
+      "operation_id": "M1-C-HERO-R1",
+      "human_minutes": null,
+      "duration_definition": "端到端墙钟时间，含服务等待、编排与文件复制；并发调用时长不可相加为总制作耗时"
+    }
+  ]
+}

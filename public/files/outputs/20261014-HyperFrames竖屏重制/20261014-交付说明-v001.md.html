@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>交付说明-v001 · 顺路，买个面包</title><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header class="site-header shell"><a class="brand" href="/"><img src="/media/logo.svg" width="150" height="46" alt="顺路，买个面包"></a><nav class="nav" aria-label="主导航"><a href="/">案例</a><a href="/experience/order/">点餐体验</a><a href="/experience/workshop/">香气工坊</a><a href="/process/">过程</a><a href="/library/">资料库</a></nav></header><main id="main" class="shell"><article class="document-reader section"><a href="/library/">← 资料库</a><p>阶段原始记录；当前产品流程以在线体验为准。</p><h1>顺路，带点香。｜10秒竖屏宣传片</h1>
+
+<p>本轮使用HyperFrames 0.8.156重制一支中文宣传视频，采用已确认的B路径系统+C食物质感与A转角吐司图形标。作品为真实街区语境下的自主虚构品牌概念。</p>
+
+<p>- 成片：<a href="/files/outputs/20261014-HyperFrames%E7%AB%96%E5%B1%8F%E9%87%8D%E5%88%B6/20261014-%E9%A1%BA%E8%B7%AF%E5%B8%A6%E7%82%B9%E9%A6%99-1080x1920-10s-v001.mp4">MP4</a>，10.000秒，1080×1920，30fps，H.264/AAC，约11.95 MiB。</p>
+<p>- 成片关键帧（阶段资料未公开）与视频封面（阶段资料未公开）。</p>
+<p>- 源工程：../../src/hyperframes-short，composition id <code>main</code>，单一paused GSAP时间线，可确定性定位。</p>
+<p>- 本机编辑预览：[HyperFrames Studio](htt[本机路径已隐藏]</p>
+
+<h2>创意与时间</h2>
+
+<p>| 秒点 | 画面与作用 |</p>
+<p>|---|---|</p>
+<p>| 0–2.5 | 餐包纹理近景拉远，出现“今天这一炉”“麦香” |</p>
+<p>| 2.5–4.02 | 横移至谷物圆包，“顺着香气，拐个弯。” |</p>
+<p>| 4.02–5.62 | 顺转角路径移至切片吐司，“柔软” |</p>
+<p>| 5.62–6.8 | 三款产品与路径共框，建立同一空间关系 |</p>
+<p>| 6.8–8.17 | 三款收至下方，图形组合标与口号依次揭示 |</p>
+<p>| 8.17–10 | 品牌与口号完整停留，产品保留轻微运动 |</p>
+
+<h2>素材、人机分工与成本</h2>
+
+<p>三款产品沿用M2的AI母图，A标识沿用已确认矢量v002；本轮没有新生图或视频生成模型调用。镜头、排版、时间线及转角路径由代码实现，并由人工检查调整。配乐截自项目原创代码合成母带20–30秒，增加开头与结尾淡变，无旁白。</p>
+
+<p>渲染采用HyperFrames本地CLI、2 workers、delivery质量；实际为截图捕获、硬件GPU，CLI报告25.0秒，命令墙钟27.104秒。捕获16.8秒、编码5.9秒等为阶段时长，不能直接当作计费GPU小时。历史母图成本、人工精修时长、总项目费用本轮未重新核算；无账单的数据不填0。详见成本CSV。</p>
+
+<h2>检查与限制</h2>
+
+<p>最终check：0错误；runtime/layout均0警告。保留1条“嵌套结构建议拆子组成”的lint建议，本片为有意采用的连续单画布。7.8秒口号从蒙版内揭示时有2条布局info，属于预定过渡；9.5秒完整显示。图片/字体超过内联阈值，依靠源工程assets文件，不是破图。</p>
+
+<p>已目检预览及实际MP4抽帧0.4/1.8/3.5/5.2/6.5/7.8/8.5/9.5秒；片尾餐包裁边问题已修正。ffprobe确认时长、尺寸、帧率与音轨；全文件解码无错误，实际300帧；音频峰值0.449，未削波。技术和关键帧检查不等于本人动态观感/手机试听验收。</p>
+
+<p>本轮交付1支重制片；旧SV01–SV04及双语历史版本保留，30秒主片保持既有版本。M6 PDF尚未嵌入这支新短片。待用户观看确认节奏与音乐，不自动标为审美验收通过，也未发布外部平台。</p>
+
+<h2>重新预览 / 渲染</h2>
+
+<p>在 <code>src/hyperframes-short</code> 内运行（Node.js、ffmpeg/ffprobe和Chrome需可用）：</p>
+
+<p>```powershell</p>
+<p>$env:npm_config_cache=&#39;../../work/20261014-HyperFrames竖屏/npm-cache&#39;</p>
+<p>npx --yes hyperframes@0.8.156 preview --background --port 8731</p>
+<p>npx --yes hyperframes@0.8.156 render . --fps 30 --quality delivery --workers 2 --output &#39;../../outputs/20261014-HyperFrames竖屏重制/20261014-顺路带点香-1080x1920-10s-v002.mp4&#39;</p>
+<p>```</p>
+
+<p>已交付v001应保留，后续改稿递增版本。检查报告在 <code>tests/20261014-HyperFrames竖屏重制</code>，过程日志及时间在 <code>work/20261014-HyperFrames竖屏</code>。</p>
+</article></main><footer class="footer shell">自主概念项目 · 原创概念与设计决策，AI辅助图像、文案及代码制作。生成场景不是实拍；演示订单不是经营数据。</footer></body></html>
